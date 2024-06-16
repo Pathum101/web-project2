@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+/* main */
+*{
+    font-family: "Play", sans-serif;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #bdc3c7;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #FF611C;
+    border-radius: 10px;
+}
+
+.outer{
+    border: 1px solid black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html,body{
+    scroll-behavior: smooth !important  ;
+}
+
+.back-to-top-outer{
+    width: 50px;
+    height: 50px;
+    background-color: #d35400;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #34495e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-to-top-outer a{
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    color: white;
+}
+
+/* Header area */
+.navbar-brand img{
+    width: 50px;
+}
+
+.header-outer{
+    position: sticky;
+    top: 0;
+}
+
+
+/* Home area */
+.home-outer{
+    background-image: url("https://images01.nicepage.com/26/af/26afbfd6f4b0f7d2c0352d2c78f559db.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    
+}
+
+.home-container{
+    border: 1px solid black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.home-title{
+    font-size: 80px;
+    font-weight:50px;
+    line-height: 60px;
+    /* color: white; */
+}
+
+.container{
+    border: 1px solid red;
+}
+
+.widget-outer{
+    border: 1px solid blue;
+    height: 350px;
+    margin-bottom: 20px;
+    /* padding: 0px; */
+    
+}
+
+.widget-inner{
+    height:100%;
+    width:100%;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-widget-outer{
+    margin-top: -120px;
+}
+
+.widget-inner-top{
+    width: 100%;
+    height: 100px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.widget-inner-bottom{
+    flex: 1;
+    border: 1px solid yellow;
+    padding: 10px;
+}
+
+.widget-inner-bottom h4,p{
+    text-align: center;
+
+}
+.widget-icon{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.widget-icon i{
+    scale: 2;
+    color: white;
+}
+/* Services area */
+
+.service-outer{
+    min-height: 600px ;
+    width: 100%;
+    background-image: url("	https://images02.nicepage.com/c461c07a441a5d220e8feb1a/24af2a14af16514caf47360a/33581d05cec4a3308cd79979a51eed9d.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-container{
+    min-height: 600px;
+    border: 1px solid red;
+    
+}
+/* Product area */
+/* About area */
+/* Solutions area */
+/* Contact us area */
